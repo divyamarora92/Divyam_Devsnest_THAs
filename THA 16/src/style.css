@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    color: brown;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.card{
+    border: 1px solid rgb(70,66,66);
+    padding: 10px 20px;
+    width: 400px;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    /* margin-right: 800px; */
+
+}
+.card img{
+    width: 100%;
+
+}
+
+.chess{
+    margin-top: 100px;
+    margin-right: 100px;
+    height: 435px;
+    width: 445px;
+
+    border: 18px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.board{
+    padding: 0.5px;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    /* background-color:wheat; */
+}
+.board:nth-child(even) .box:nth-child(odd) {
+    background-color: black;
+  }
+  .board:nth-child(odd) .box:nth-child(even) {
+    background-color: black;
+  }
